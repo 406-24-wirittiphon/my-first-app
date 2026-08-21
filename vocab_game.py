@@ -50,13 +50,13 @@ def show_result_dialog(ans1, ans2):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
-     if u_ans3 == "Orange":
+     if u_ans3 == "orange": 
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
-     if u_ans4 == "Backpack":
+     if u_ans4 == "backpack":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
@@ -97,11 +97,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: An `O _ _ _ g e` have the same name as color. 🍊",
+    "ข้อ 3: An `o _ _ _ g e` have the same name as color. 🍊",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: He wants a more trending `_ _ _ _ p a c k` . 🎒",
+    "ข้อ 4: He wants a more trending `b _ _ _ p a c k` . 🎒",
     value=st.session_state.ans4_val,
 )
 

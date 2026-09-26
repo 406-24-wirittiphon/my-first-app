@@ -105,7 +105,7 @@ ans3 = st.text_input(
 )
 
 ans4 = st.text_input(
-    "ข้อ 1: This thing can make you write veery fluidly! where did you buy this ` _ e _ ` . 🖊️ ",
+    "ข้อ 1: you can measure the length with ` r u _ e _ ` . 📏  ",
     value=st.session_state.ans4_val,
 )
 # อัปเดตค่าล่าสุดเข้าตัวแปร
